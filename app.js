@@ -29,7 +29,7 @@ function startGame(pumps) {
     petrolRemaining = petrolRemaining - km;
     if (pumps.includes(carAt) || checkCarPassPump(prevposition, carAt, pumps)) {
       petrolRemaining += 20;
-      pertolFilled = ", petrol got fill";
+      pertolFilled = ", petrol added";
     }
     if (carAt >= 100) {
       gameStatus = ", reached";
